@@ -12,6 +12,6 @@ print(type(data_male))
 print(data_male)
 print(data_female)
 data = pd.DataFrame([data_male,data_female],index=[1,2])
-
+data.to_csv(r'C:\Users\kusha\Desktop\dataframe.csv')
 
 print (data)
